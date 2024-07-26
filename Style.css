@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+background-image: url(./Assets/Background_Intro.png);
+height: 860px;
+background-size: cover;
+
+
+
+}
+ 
+ 
+#logo img {
+position: relative;
+left: 865px;
+margin-top: 160px;
+
+
+
+}
+
+.texto {
+margin-top: 35px;
+display: grid;
+justify-content: center;
+height: 300px;
+align-items:  center;
+
+}
+
+
+
+.icones {
+position: relative;
+right: 25px;
+display: flex;
+gap: 20px;
+object-fit: cover;
+width: 40px;
+height: 40px;
+margin-top: 110px;
+}
+
+#subtitulo {
+  display: flex;
+  justify-content: center;
+  color: white; 
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+}
+
+#titulo{
+  color:  #FF2D55;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: "Inconsolata", monospace;
+  
+}
+
+#txt {
+  color: #878EA1;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.container a {
+display: grid;
+justify-content: center;
+margin-top: 130px;
+
+}
+
+
+.container2 {
+  padding-top:110px;
+  width: 100%;
+  height: 1350px;
+}
+
+
+
+.cards {
+padding-top: 110px;
+display: grid ;
+grid-template-columns:510px 510px 510px;
+place-content: center;
+row-gap: 30px;
+
+}
+
+.card1 {
+ background-color: black;
+  width: 480px;
+  height: 400px;
+  padding: 18px;
+  border-radius: 10px;
+  
+
+}
+
+.card1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card1 h1{
+  color: white;
+  align-content: center;
+  padding-top:20px;
+  font-family: "Inconsolata", monospace;
+  
+}
+
+.card1 h2 {
+  color: #878EA1;
+  padding-top:20px;
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+}
+
+.titulo {
+  padding-top: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.titulo h2 {
+  color: #FF2D55;
+  font-size: 40px;
+  font-family: "Inconsolata", monospace;
+
+}
+.container3 {
+  height: 730px;
+  background-color: black;
+}
+.cards2 {
+ display: grid;
+ grid-template-columns: 440px 440px 440px;
+place-content: center;
+margin-top: 140px;
+
+
+}
+.card2 {
+  border: solid 1px #1f2229 ;
+  width: 380px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 24px;
+}
+
+.card2 h1 {
+  color:white;
+  font-family: "Poppins", sans-serif;
+}
+
+.card2 h2 {
+  color: #878EA1;
+  margin-top: 10px;
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+}
+
+.texto2 {
+  margin-top: 15px;
+}
+
+.card2 img {
+  width: 55px;
+}
+
+.container4 {
+background-image: url(./Assets/Background_Intro.png);
+height: 860px;
+background-size: cover;
+}
+
+.titulo2 {
+  color: white;
+  padding-top: 120px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.textos3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  padding-top: 200px;
+  line-height: 50px;
+
+}
+
+.textos3 h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.textos3 h2 {
+  color: #878EA1;
+  font-family: "Inconsolata", monospace;
+  
+}
+
+
+.card3 {
+  background-color: #0D0E11;
+  width: 400px;
+  height: 68px;
+  align-items: center;
+  gap: 25px;
+  padding: 20px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 30px 260px 10px;
+}
+
+.textocard1 {
+  color:#878EA1;
+  font-size: 20px;
+  align-self: center;
+  font-family: "Inconsolata", monospace;
+}
+
+
+
+.cards3 {
+  display: grid;
+  grid-template-rows:100px 100px 100px;
+  place-content: center;
+  padding-top:70px ;
+}
+
+.header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  }
+
+  .navbar a {
+    position: relative;
+     font-size: 18px;   
+     color: white;
+     font-weight: 500;
+     text-decoration: none;
+     margin-left:40px ;
+     font-family:"Silkscreen",sans-serif;
+    }
+
+    .navbar a::before{
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: white;
+      transition: .3s;
+  }
+  
+  .navbar a:hover::before {
+  
+      width: 100%;
+  
+  }
